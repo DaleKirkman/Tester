@@ -5,6 +5,16 @@ body {
 }
 
 
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 
 /* Headings */
 
@@ -18,7 +28,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 450;
   line-height: 2.5;
-  font-size: 72px;
+  font-size: 1em;
 }
 
 .big-heading {
@@ -268,16 +278,7 @@ img {
   padding: 3% 2%
 }
 
-@media (max-width: 1028px) {
 
-  #title {
-    text-align: center;
-  }
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
 
 /* #Action Section */
 
