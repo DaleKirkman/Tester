@@ -13,8 +13,16 @@ body {
     position: static;
     transform: rotate(0);
   }
+  p {
+    font-size: 1em;
+  }
 }
 
+@media (max-width: 600px) {
+  p {
+    font-size: 22px;
+  }
+}
 
 /* Headings */
 
@@ -28,7 +36,6 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 450;
   line-height: 2.5;
-  font-size: 1em;
 }
 
 .big-heading {
@@ -55,11 +62,6 @@ p {
 /* Sections */
 
 .coloured-section {
-  background-color: #000000;
-  color: #FFF;
-}
-
-.contact-section {
   background-color: #000000;
   color: #FFF;
 }
@@ -151,7 +153,6 @@ button:hover {
   background-color: #ffde25;
   border-style: none;
 }
-
 
 
 .container-podcasts {
